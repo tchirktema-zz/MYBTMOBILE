@@ -58,22 +58,24 @@ class MenuPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelect
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
-            }
-            R.id.nav_gallery -> {
+
+            R.id.navMyBTService-> {
 
             }
-            R.id.nav_slideshow -> {
+            R.id.navProfil-> {
 
             }
-            R.id.nav_manage -> {
+            R.id.navMyBTLive -> {
 
             }
-            R.id.nav_share -> {
+            R.id.navMyBTPrivilege -> {
 
             }
-            R.id.nav_send -> {
+            R.id.navLogout-> {
+
+            }
+
+            R.id.navHelp-> {
 
             }
         }
