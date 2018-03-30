@@ -1,5 +1,6 @@
 package com.tchirktema.mybt
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -28,6 +29,13 @@ class MainActivity : AppCompatActivity() {
                 //mise a jour de la bar de progresssion
                 progressBar.progress = progressBarStatus
             }
+            val loginIntent = Intent(this, login::class.java)
+            startActivity(loginIntent)
         }).start()
+
+
     }
+
+
+
 }
